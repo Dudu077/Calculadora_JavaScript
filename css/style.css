@@ -71,3 +71,85 @@ html {
 }
 
 /*Calculadora Fim*/
+
+/* Media Queries Início */
+
+@media screen and (max-width:320px) {
+
+    #calculadora {
+        width: 100%;
+    }
+
+    #calculadora button {
+        font-weight: bold;
+        font-size: 16pt;
+        margin: 5px;
+        height: 3em;
+    }
+
+    #calculadora .btn04 {
+        width: 2.5em;
+        margin-left: -4px;
+    
+    }
+
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+
+    #calculadora {
+        width: 100%;
+    }
+
+    #calculadora button {
+        font-weight: bold;
+        font-size: 16pt;
+        margin: 5px;
+        height: 3em;
+    }
+
+    #calculadora .btn04 {
+        width: 2.8em;
+        margin-left: -0.5px;
+    
+    }
+
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+
+    #calculadora {
+        width: 100%;
+    }
+
+    #calculadora button {
+        font-weight: bold;
+        font-size: 16pt;
+        margin: 5px;
+        height: 3em;
+    }
+
+    #calculadora .btn04 {
+        width: 3.3em;
+        margin-left: -0.1px;
+    
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+
+    #calculadora {
+        width: 45rem;
+    }
+
+    #calculadora button {
+        font-weight: bold;
+        font-size: 16pt;
+        margin: 5px;
+        height: 4em;
+    }
+
+}
+
+/*Media Queries Fim*/
